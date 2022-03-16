@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class="mybtn">
+        <div class="circle">
+
+        </div>
+    </div>
+    <h1 class="text-info display-3 text-center"> ToDo App</h1>
+    <div class="container col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="form-group">
+                    <label> Add Task </label>
+                    <input type="text" id="taskInput" class="form-control" placeholder="Your Task">
+                    <div id="invalid" class=" none alert alert-danger "> Please Enter Valid Data
+                        <button id="closeValditionMessege" type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <button id="taskBtn" class="btn btn-block w-50 mx-auto btn-primary mt-2"> Add Task</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container col-md-6">
+        <div class="card mt-2">
+            <div class="card-body">
+                <div id="noTask" class="alert alert-danger">
+                    <h6> No Data Added Yet</h6>
+                </div>
+                <div id="tasks">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

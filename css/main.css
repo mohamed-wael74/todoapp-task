@@ -1,0 +1,29 @@
+.mybtn {
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: gray;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.circle {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    background-color: grey;
+    color: honeydew;
+}
+
+.none {
+    display: none;
+}
